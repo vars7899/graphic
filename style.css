@@ -1,0 +1,42 @@
+/* Global css reset */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    overflow: hidden;
+}
+
+#canvas1{
+    max-height: 100vh;
+    background-color: black;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+#controls{
+    position: absolute;
+    padding: 10px;
+    left: 20px;
+    top: 20px;
+    width: 250px;
+    background-color: rgba(255, 255, 255, 0.055);
+    border-radius: 5px;
+}
+button{
+    padding: 10px 40px;
+    width: 225px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+}
+label, input{
+    color: #fff;
+    font-size: 0.8rem;
+}
+label{
+    margin-left: 5px;
+}
